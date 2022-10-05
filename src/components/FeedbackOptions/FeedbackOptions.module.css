@@ -1,0 +1,26 @@
+ul {
+  display: flex;
+}
+
+li {
+  display: flex;
+}
+li:not(:last-child) {
+  margin-right: 15px;
+}
+
+.btn {
+  width: 120px;
+  padding: 10px 30px;
+  border: 1px solid darkgray;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn:hover,
+.btn:focus {
+  -webkit-box-shadow: 3px 3px 4px 1px rgba(179, 179, 179, 1);
+  -moz-box-shadow: 3px 3px 4px 1px rgba(179, 179, 179, 1);
+  box-shadow: 3px 3px 4px 1px rgba(179, 179, 179, 1);
+}

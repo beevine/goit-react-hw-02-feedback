@@ -1,0 +1,10 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 0.8;
+  display: flex;
+}
